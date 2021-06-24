@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>DJ-GOMP: Deep learning can accelerate grasp-optimized motion planning</title>
+
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JE3N4LJGQ"></script> -->
+    <!-- <script> -->
+    <!--   window.dataLayer=window.dataLayer||[]; -->
+    <!--   function gtag(){dataLayer.push(arguments);} -->
+    <!--   gtag('js',new Date()); -->
+    <!--   gtag('config','G-1JE3N4LJGQ'); -->
+    <!-- </script> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+          <div class="page-header text-center">
+            <h1>Deep Learning Can Accelerate Grasp-Optimized Motion Planning</h1>
+          </div>
+
+          <div class="container">
+            <div class="row text-center gy-3">
+              <div class="col-6">
+                <div class="fs-5"><a href="https://ichnow.ski/">Jeffrey Ichnowski</a></div>
+                <div>UC Berkeley</div>
+              </div>
+              <div class="col-6">
+                <div class="fs-5">Yahav Avigal</div>
+                <div>UC Berkeley</div>
+              </div>
+              <div class="col-6">
+                <div class="fs-5">Vishal Satish</div>
+                <div>UC Berkeley</div>
+              </div>
+              <div class="col-6">
+                <div class="fs-5"><a href="https://goldberg.berkeley.edu/">Ken Goldberg</a></div>
+                <div>UC Berkeley</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="text-center p-3">
+            <a href="#" class="btn btn-primary">Publication</a>
+            <a href="#" class="btn btn-primary">Paper</a>
+            <a href="#" class="btn btn-primary">Video</a>
+          </div>
+          
+          <div>
+            <h2>Abstract</h2>
+            <p>Robots for picking in e-commerce warehouses require rapid computing of efficient and smooth robot arm motions between varying configurations. Recent results integrate grasp analysis with arm motion planning to compute optimal smooth arm motions; however, computation times on the order of tens of seconds dominate motion times. Recent advances in deep learning allow neural networks to quickly compute these motions; however, they lack the precision required to produce kinematically and dynamically feasible motions. While infeasible, the network-computed motions approximate the optimized results. The proposed method warm starts the optimization process by using the approximate motions as a starting point from which the optimizing motion planner refines to an optimized and feasible motion with few iterations. In experiments, the proposed deep learning– based warm-started optimizing motion planner reduces compute and motion time when compared to a sampling-based asymptotically optimal motion planner and an optimizing motion planner. When applied to grasp-optimized motion planning, the results suggest that deep learning can reduce the computation time by two orders of magnitude (300×), from 29 s to 80 ms, making it practical for e-commerce warehouse picking.</p>
+          </div>
+          
+          <div>
+            <h2>Press</h2>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="https://news.berkeley.edu/2020/11/18/deep-learning-helps-robots-grasp-and-move-objects-with-ease/">Berkeley News</a></li>
+              <li class="list-inline-item"><a href="https://www.newscientist.com/article/2260014-warehouse-robots-upgraded-to-make-packing-decisions-350-times-faster/">New Scientist</a></li>
+              <li class="list-inline-item"><a href="https://techcrunch.com/2020/11/18/interlocking-ais-let-robots-pick-and-place-faster-than-ever/">TechCrunch</a></li>
+              <li class="list-inline-item"><a href="https://jp.techcrunch.com/2020/11/19/2020-11-18-interlocking-ais-let-robots-pick-and-place-faster-than-ever/">TC 日本</a></li>
+              <li class="list-inline-item"><a href="https://www.thetimes.co.uk/article/holding-on-to-job-becomes-harder-as-robots-get-a-grip-mrkhp3nsm">The Times</a></li>
+              <li class="list-inline-item"><a href="https://finance.yahoo.com/news/interlocking-ais-let-robots-pick-190131191.html">Yahoo!</a></li>
+              <li class="list-inline-item"><a href="https://techxplore.com/news/2020-11-deep-robots-grasp-ease.html">Tech Xplore</a></li>
+              <li class="list-inline-item"><a href="https://www.miragenews.com/deep-learning-helps-robots-grasp-and-move-objects-with-ease/">Mirage</a></li>
+              <li class="list-inline-item"><a href="https://www.sciencedaily.com/releases/2020/11/201118141827.htm">ScienceDaily</a></li>
+              <li class="list-inline-item"><a href="https://cosmosmagazine.com/news/making-robots-useful-in-the-warehouse/">Cosmos</a></li>
+              <li class="list-inline-item"><a href="https://www.analyticsinsight.net/deep-learning-will-make-robots-grasp-and-move-objects-easily/">Analytics Insight</a></li>
+              <li class="list-inline-item"><a href="https://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/20996/Deep-Learning-Software-Accelerates-Robots-Ability-to-Grasp-and-Move-Objects.aspx">engineering.com</a></li>
+              <!-- Filled with popups, bleh.
+                   <li class="list-inline-item"><a href="https://trading-u.com/storage-robots-have-been-upgraded-to-make-packaging-decisions-350-times-faster/">Trading U</a></li> -->
+              <li class="list-inline-item"><a href="https://www.therobotreport.com/neural-networks-plus-motion-planning-equals-more-nimble-robots-uc-berkeley/">The Robot Report</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h2>Citation</h2>
+            <div class="card text-dark bg-light">
+              <pre class="card-body">@article{
+  title={Deep learning can accelerate grasp-optimized motion planning},
+  author={Ichnowski, Jeffrey and Avigal, Yahav and Satish, Vishal and Goldberg, Ken},
+  journal={Science Robotics},
+  volume={5},
+  number={48},
+  year={2020},
+  publisher={Science Robotics}
+}</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
