@@ -20,41 +20,50 @@
     <!-- </script> -->
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-          <div class="page-header text-center">
-            <h1>Deep Learning Can Accelerate<br/>
-            <span class="text-nowrap">Grasp-Optimized</span> Motion Planning</h1>
-          </div>
-
-          <div class="container">
-            <div class="row text-center gy-3">
-              <div class="col-6">
-                <div class="fs-5"><a href="https://ichnow.ski/">Jeffrey Ichnowski</a></div>
-                <div>UC Berkeley</div>
+    <div class="dj-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+            <div>
+              <div class="page-header text-center p-3">
+                <h1>Deep Learning Can Accelerate<br/>
+                <span class="text-nowrap">Grasp-Optimized</span> Motion Planning</h1>
               </div>
-              <div class="col-6">
-                <div class="fs-5">Yahav Avigal</div>
-                <div>UC Berkeley</div>
+              
+              <div class="container">
+                <div class="row text-center gy-3">
+                  <div class="col-6">
+                    <div class="fs-5"><a href="https://ichnow.ski/">Jeffrey Ichnowski</a></div>
+                    <div>UC Berkeley</div>
+                  </div>
+                  <div class="col-6">
+                    <div class="fs-5">Yahav Avigal</div>
+                    <div>UC Berkeley</div>
+                  </div>
+                  <div class="col-6">
+                    <div class="fs-5">Vishal Satish</div>
+                    <div>UC Berkeley</div>
+                  </div>
+                  <div class="col-6">
+                    <div class="fs-5"><a href="https://goldberg.berkeley.edu/">Ken Goldberg</a></div>
+                    <div>UC Berkeley</div>
+                  </div>
+                </div>
               </div>
-              <div class="col-6">
-                <div class="fs-5">Vishal Satish</div>
-                <div>UC Berkeley</div>
-              </div>
-              <div class="col-6">
-                <div class="fs-5"><a href="https://goldberg.berkeley.edu/">Ken Goldberg</a></div>
-                <div>UC Berkeley</div>
+              
+              <div class="text-center p-3">
+                <a href="https://robotics.sciencemag.org/content/5/48/eabd7710" class="btn btn-primary">Publication</a>
+                <a href="#" class="btn btn-primary">Paper</a>
+                <a href="https://www.nvidia.com/en-us/on-demand/session/gtcspring21-s31905/" class="btn btn-primary">NVIDIA GTC 2021</a>
               </div>
             </div>
           </div>
-          
-          <div class="text-center p-3">
-            <a href="https://robotics.sciencemag.org/content/5/48/eabd7710" class="btn btn-primary">Publication</a>
-            <a href="#" class="btn btn-primary">Paper</a>
-            <a href="#" class="btn btn-primary">Video</a>
-          </div>
-          
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div>
             <h2>Abstract</h2>
             <p>Robots for picking in e-commerce warehouses require rapid computing of efficient and smooth robot arm motions between varying configurations. Recent results integrate grasp analysis with arm motion planning to compute optimal smooth arm motions; however, computation times on the order of tens of seconds dominate motion times. Recent advances in deep learning allow neural networks to quickly compute these motions; however, they lack the precision required to produce kinematically and dynamically feasible motions. While infeasible, the network-computed motions approximate the optimized results. The proposed method warm starts the optimization process by using the approximate motions as a starting point from which the optimizing motion planner refines to an optimized and feasible motion with few iterations. In experiments, the proposed deep learning– based warm-started optimizing motion planner reduces compute and motion time when compared to a sampling-based asymptotically optimal motion planner and an optimizing motion planner. When applied to grasp-optimized motion planning, the results suggest that deep learning can reduce the computation time by two orders of magnitude (300×), from 29 s to 80 ms, making it practical for e-commerce warehouse picking.</p>
